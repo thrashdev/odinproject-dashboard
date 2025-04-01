@@ -1,100 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Dashboard</title>
 </head>
+
 <body>
     <div class="container">
         <section id="header">
-            <div id="search-bar"></div>
-            <div id="welcome-splash"></div>
-            <div id="profile"></div>
+            <div id="search-bar">
+                <input type="search" name="search" id="search">
+                <input type="submit" value="search">
+            </div>
+            <div id="welcome-splash">
+                <!-- <img src="" alt="your profile picture" class="user-avatar"> -->
+                <div class="user-avatar"></div>
+                <div class="welcome-message">
+                    <p class="welcome-supertext">Hi there,</p>
+                    <p class="welcome-text">Morgan Oakley (@morgan)</p>
+                </div>
+            </div>
+            <div id="profile">
+                <div class="user-avatar"></div>
+                <!-- <img src="" alt="your profile picture" class="user-avatar"> -->
+                <p class="profile-user-name">Morgan Oakley (@morgan)</p>
+            </div>
             <div id="control-list"></div>
         </section>
         <section id="navbar">
-            <ul>
-                <li>Home</li>
-                <li>Profile</li>
-            </ul>
-        </section>
-        <section id="tile-grid">
-            <div class="tile-card">
-                <h3 class="tile-title">Title</h3>
-                <p class="tile-text">Description</p>
+            <div id="site-id">
+                <div class="logo"></div>
+                <p class="site-name">Dashboard</p>
             </div>
-            <div class="tile-card">
-                <h3 class="tile-title">Title</h3>
-                <p class="tile-text">Description</p>
-            </div>
-            <div class="tile-card">
-                <h3 class="tile-title">Title</h3>
-                <p class="tile-text">Description</p>
-            </div>
-            <div class="tile-card">
-                <h3 class="tile-title">Title</h3>
-                <p class="tile-text">Description</p>
-            </div>
-            <div class="tile-card">
-                <h3 class="tile-title">Title</h3>
-                <p class="tile-text">Description</p>
-            </div>
-            <div class="tile-card">
-                <h3 class="tile-title">Title</h3>
-                <p class="tile-text">Description</p>
-            </div>
-            <div class="tile-card">
-                <h3 class="tile-title">Title</h3>
-                <p class="tile-text">Description</p>
-            </div>
-            <div class="tile-card">
-                <h3 class="tile-title">Title</h3>
-                <p class="tile-text">Description</p>
-            </div>
-            <div class="tile-card">
-                <h3 class="tile-title">Title</h3>
-                <p class="tile-text">Description</p>
-            </div>
-        </section>
-    
-        <section id="sidebar">
-            <div id="sidebar-announcements">
+            <div class="nav-links">
                 <ul>
                     <li>
-                        <h3 class="announcement-title">Site Maintenance</h3>
-                        <p class="announcement-text">We're maintaining the site rn.</p>
+                        <div class="nav-link">Home</div>
                     </li>
                     <li>
-                        <h3 class="announcement-title">Community Share Day</h3>
-                        <p class="announcement-text">Share with community duh.</p>
-                    </li>
-                    <li>
-                        <h3 class="announcement-title">Updated Privacy Policy</h3>
-                        <p class="announcement-text">We've updated it.</p>
+                        <div class="nav-link">Profile</div>
                     </li>
                 </ul>
             </div>
-            <div id="sidebar-trending">
-                <div class="trending-tile">
-                    <h4 class="trending-tag">@tegan</h4>
-                    <p class="trending-text">World Peace Builder</p>
-                </div>
-                <div class="trending-tile">
-                    <h4 class="trending-tag">@morgan</h4>
-                    <p class="trending-text">Super Cool Project</p>
-                </div>
-                <div class="trending-tile">
-                    <h4 class="trending-tag">@kendall</h4>
-                    <p class="trending-text">Life Changing App</p>
-                </div>
-                <div class="trending-tile">
-                    <h4 class="trending-tag">@alex</h4>
-                    <p class="trending-text">No Traffic Maker</p>
-                </div>
-            </div>
         </section>
+        <section id="content-grid">
+            <section id="tile-grid">
+                <div class="tile-card">
+                    <h3 class="tile-title">Title</h3>
+                    <p class="tile-text">Description</p>
+                </div>
+                <div class="tile-card">
+                    <h3 class="tile-title">Title</h3>
+                    <p class="tile-text">Description</p>
+                </div>
+                <div class="tile-card">
+                    <h3 class="tile-title">Title</h3>
+                    <p class="tile-text">Description</p>
+                </div>
+                <div class="tile-card">
+                    <h3 class="tile-title">Title</h3>
+                    <p class="tile-text">Description</p>
+                </div>
+                <div class="tile-card">
+                    <h3 class="tile-title">Title</h3>
+                    <p class="tile-text">Description</p>
+                </div>
+                <div class="tile-card">
+                    <h3 class="tile-title">Title</h3>
+                    <p class="tile-text">Description</p>
+                </div>
+                <div class="tile-card">
+                    <h3 class="tile-title">Title</h3>
+                    <p class="tile-text">Description</p>
+                </div>
+                <div class="tile-card">
+                    <h3 class="tile-title">Title</h3>
+                    <p class="tile-text">Description</p>
+                </div>
+                <div class="tile-card">
+                    <h3 class="tile-title">Title</h3>
+                    <p class="tile-text">Description</p>
+                </div>
+            </section>
+            <section id="sidebar">
+                <div id="sidebar-announcements">
+                    <ul>
+                        <li>
+                            <div class="announcement">
+                                <h3 class="announcement-title">Site Maintenance</h3>
+                                <p class="announcement-text">We're maintaining the site rn.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="announcement">
+                                <h3 class="announcement-title">Community Share Day</h3>
+                                <p class="announcement-text">Share with community duh.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="announcement">
+                                <h3 class="announcement-title">Updated Privacy Policy</h3>
+                                <p class="announcement-text">We've updated it.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="sidebar-trending">
+                    <ul>
+                        <li>
+                            <div class="trending-tile">
+                                <div class="user-avatar"></div>
+                                <div class="trending-text">
+                                    <h4 class="trending-tag">@tegan</h4>
+                                    <p class="trending-status">World Peace Builder</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="trending-tile">
+                                <div class="user-avatar"></div>
+                                <div class="trending-text">
+                                    <h4 class="trending-tag">@morgan</h4>
+                                    <p class="trending-status">Super Cool Project</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="trending-tile">
+                                <div class="user-avatar"></div>
+                                <div class="trending-text">
+                                    <h4 class="trending-tag">@kendall</h4>
+                                    <p class="trending-status">Life Changing App</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="trending-tile">
+                                <div class="user-avatar"></div>
+                                <div class="trending-text">
+                                    <h4 class="trending-tag">@alex</h4>
+                                    <p class="trending-status">No Traffic Maker</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+
     </div>
 </body>
+
 </html>
