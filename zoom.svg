@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="17.480469"
+   height="23.956264"
+   viewBox="0 0 17.480469 23.956264"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch132">
+      <stop
+         style="stop-color:#fff5f5;stop-opacity:1;"
+         offset="0"
+         id="stop132" />
+    </linearGradient>
+    <linearGradient
+       id="swatch131">
+      <stop
+         style="stop-color:#fafafa;stop-opacity:1;"
+         offset="0"
+         id="stop131" />
+    </linearGradient>
+    <linearGradient
+       id="swatch130">
+      <stop
+         style="stop-color:#fafafa;stop-opacity:1;"
+         offset="0"
+         id="stop130" />
+    </linearGradient>
+    <linearGradient
+       id="swatch129">
+      <stop
+         style="stop-color:#fafafa;stop-opacity:1;"
+         offset="0"
+         id="stop129" />
+    </linearGradient>
+    <linearGradient
+       id="swatch128">
+      <stop
+         style="stop-color:#fafafa;stop-opacity:1;"
+         offset="0"
+         id="stop128" />
+    </linearGradient>
+    <linearGradient
+       id="swatch127">
+      <stop
+         style="stop-color:#f5f5f5;stop-opacity:1;"
+         offset="0"
+         id="stop127" />
+    </linearGradient>
+    <linearGradient
+       id="swatch55">
+      <stop
+         style="stop-color:#36157d;stop-opacity:1;"
+         offset="0"
+         id="stop55" />
+    </linearGradient>
+    <linearGradient
+       id="swatch34">
+      <stop
+         style="stop-color:#debbff;stop-opacity:1;"
+         offset="0"
+         id="stop34" />
+    </linearGradient>
+    <linearGradient
+       id="swatch33"
+       gradientTransform="matrix(12.157766,0,0,8.6340746,3504.5057,9332.9963)">
+      <stop
+         style="stop-color:#ac72e9;stop-opacity:1;"
+         offset="0"
+         id="stop33" />
+    </linearGradient>
+    <linearGradient
+       id="swatch25">
+      <stop
+         style="stop-color:#935bd3;stop-opacity:1;"
+         offset="0"
+         id="stop25" />
+    </linearGradient>
+    <linearGradient
+       id="swatch24"
+       gradientTransform="translate(-182.47266,-16.632812)">
+      <stop
+         style="stop-color:#451694;stop-opacity:1;"
+         offset="0"
+         id="stop24" />
+    </linearGradient>
+    <linearGradient
+       id="swatch23"
+       gradientTransform="matrix(0.59329689,0,0,0.40135026,575.82067,913.10377)">
+      <stop
+         style="stop-color:#602ea9;stop-opacity:1;"
+         offset="0"
+         id="stop23" />
+    </linearGradient>
+    <linearGradient
+       id="swatch22">
+      <stop
+         style="stop-color:#271367;stop-opacity:1;"
+         offset="0"
+         id="stop22" />
+    </linearGradient>
+    <linearGradient
+       id="swatch20">
+      <stop
+         style="stop-color:#000029;stop-opacity:1;"
+         offset="0"
+         id="stop20" />
+    </linearGradient>
+    <linearGradient
+       id="swatch19"
+       gradientTransform="matrix(0.9987019,0,0,1.0061802,2.4940419,-1.3168584)">
+      <stop
+         style="stop-color:#181051;stop-opacity:1;"
+         offset="0"
+         id="stop19" />
+    </linearGradient>
+    <linearGradient
+       id="swatch7"
+       gradientTransform="translate(-1.6792603,-7.5914344)">
+      <stop
+         style="stop-color:#0a0c3c;stop-opacity:1;"
+         offset="0"
+         id="stop7" />
+    </linearGradient>
+    <linearGradient
+       id="swatch3">
+      <stop
+         style="stop-color:#271367;stop-opacity:1;"
+         offset="0"
+         id="stop3" />
+    </linearGradient>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-1058.6255,-48.021871)">
+    <g
+       id="g89"
+       transform="matrix(0.80083184,0,0,0.81330939,695.06269,10.442796)"
+       style="stroke-width:1.23909">
+      <ellipse
+         style="fill:none;fill-opacity:1;stroke:#f9f9f9;stroke-width:3.24336;stroke-linecap:round;stroke-linejoin:bevel"
+         id="path74"
+         cx="464.50262"
+         cy="56.857201"
+         rx="8.8994532"
+         ry="9.0303812" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#f9f9f9;stroke-width:3.24413;stroke-linecap:round;stroke-linejoin:round"
+         id="rect75"
+         width="1.028132"
+         height="9.8690481"
+         x="377.65616"
+         y="296.85574"
+         ry="0.049475912"
+         transform="matrix(0.85812703,-0.51343744,0.48668182,0.87357931,0,0)" />
+    </g>
+  </g>
+</svg>

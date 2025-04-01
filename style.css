@@ -53,14 +53,14 @@
     --shade-800:  #181051;
     --shade-900:  #0a0c3c;
     --shade-950:  #000029;
-    /* --background-color: #000029; */
+    --background-color: var(--shade-900);
     --font-color: #fafafa;
     --topmost-padding: 2rem;
 }
 
 body {
     color: var(--font-color);
-    background-color: var(--shade-950);
+    background-color: var(--shade-900);
     font-family: "Roboto", sans-serif;
 }
 
@@ -68,12 +68,14 @@ body {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 300px 1fr;
 }
 
 .user-avatar {
     border-radius: 50%;
-    background-color: whitesmoke;
+    max-width: none;
+    /* background-color: whitesmoke; */
+    /* background: url(boraicho.png); */
 }
 
 
@@ -83,40 +85,58 @@ body {
 }
 
 #navbar {
-    /* display: grid; */
+    grid-column: 1;
+    grid-row: 1 / 3;
+    /* padding-top: var(--topmost-padding);
+    padding-left: var(--topmost-padding); */
+    padding: var(--topmost-padding);
+    background-color: var(--shade-600);
 }
 
 #site-id {
     /* display: flex; */
-    display: grid; 
+    display: flex; 
     grid-template-columns: 1fr 4fr;
-    justify-items: start;
-    /* margin: 0 auto; */
-    margin-left: 1rem;
+    /* justify-items: start; */
+    /* margin: 0 auto;
+    margin-left: 1rem; */
 }
 
 #navbar .logo {
     height: 50px;
     width: 50px;
-    background-color: var(--shade-50);
+    /* background-color: var(--shade-50); */
 }
 
 #navbar .site-name {
     font-size: 24pt;
+    font-weight: 700;
     margin: auto;
-    margin-left: 5px;
+    margin-left: 15px;
+    font-family: "Roboto", sans-serif;
 }
 
 #navbar ul {
-    margin-top: 1rem;
+    margin: 0;
+    margin-top: 3rem;
+    padding: 0;
     list-style-type: none;
+    display: grid;
+    row-gap: 20%;
+}
+
+.link-section {
     display: grid;
     row-gap: 10px;
 }
 
+
 .nav-links .nav-link {
-    width: 80%;
-    background-color: var(--shade-500);
+    /* width: 80%; */
+    font-size: 16pt;
+    width: 100%;
+    /* background-color: var(--shade-500); */
+    padding-left: 1rem;
 }
 
 #header { 
@@ -127,6 +147,7 @@ body {
     background-color: var(--shade-800);
     /* padding-top: var(--topmost-padding); */
     padding: 2rem;
+    padding-left: 10rem;
 } 
  
 #search-bar > #search {
@@ -136,10 +157,27 @@ body {
     color: var(--font-color);
 }
 
+.btn-search {
+    background:none;
+    border: none;
+}
+
+.icon-search {
+    /* background: none; */
+    padding: 0;
+    height: 25px;
+    width: 17px;
+    display:block;
+    background: url(zoom.svg);
+    /* background-color: var(--background-color); */
+    border: none;
+    
+}
+
 #header > #welcome-splash {
     grid-row: 2;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 90%;
 }
 
 .welcome-message > .welcome-text {
@@ -150,12 +188,13 @@ body {
 #welcome-splash > .welcome-message {
     grid-column: 2;
     margin: auto 1rem;
+    justify-items: left;
 }
 
 #welcome-splash > .user-avatar {
     width: 75px;
     height: 75px;
-    justify-self: end;
+    /* justify-self: end; */
 }
 
 
@@ -170,12 +209,6 @@ body {
     /* gap: 0.5rem; */
 }
 
-#navbar {
-    grid-column: 1;
-    grid-row: 1 / 3;
-    padding-top: var(--topmost-padding);
-    background-color: var(--shade-700);
-}
 
 #content-grid {
     grid-row: 2;
